@@ -6,7 +6,7 @@ const data = require("./src/data/articles.json");
 exports.createPages = ({ actions }) => {
   const { createPage } = actions;
   const templatePath = path.resolve("./src/templates/articles.jsx");
-  console.log(templatePath);
+  console.log(data);
   data.forEach((articleObject) => {
     const pathName = `articles/${articleObject.slug}`;
     createPage({
