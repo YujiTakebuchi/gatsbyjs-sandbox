@@ -2,7 +2,6 @@ import { graphql } from "gatsby";
 import React from "react";
 
 export default ({ data }) => {
-  console.log(data);
   const article = data.allSitePage.edges[0].node.pageContext;
   return (
     <>
