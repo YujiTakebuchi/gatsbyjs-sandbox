@@ -1,14 +1,10 @@
 // import path from "path";
 // import data from "./src/data/articles.json";
-const fs = require("fs");
+const { glob } = require("glob");
 const path = require("path");
 
-fs.readdir("./src/data", (err, files) => {
-  console.log(err);
-  console.log(files);
-  //   files.forEach((file) => {
-  //     console.log(file);
-  //   });
+glob("./src/data/**/*.json").then((data) => {
+  console.log(data);
 });
 const data = require("./src/data/articles.json");
 
