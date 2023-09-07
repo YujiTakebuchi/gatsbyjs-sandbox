@@ -2,7 +2,6 @@ const { glob } = require("glob");
 const path = require("path");
 
 const templateCompPathMap = {
-  "src/data": "./src/templates/articles.jsx",
   "src/data/articles": "./src/templates/articles.jsx",
   "src/data/column": "./src/templates/articles.jsx",
 };
