@@ -7,13 +7,13 @@ const templateCompPathMap = {
 };
 
 exports.createPages = async ({ actions }) => {
-  const pathList = await glob("./src/data/**/*.json");
-  pathList.forEach((tmp) => {
-    const pathDir = path.dirname(tmp);
+  const jsonPathList = await glob("./src/data/**/*.json");
+  jsonPathList.forEach((jsonPath) => {
+    const pathDir = path.dirname(jsonPath);
 
     const { createPage } = actions;
     const templatePath = path.resolve(templateCompPathMap[pathDir]);
-    const jsonObj = require(`./${tmp}`);
+    const jsonObj = require(`./${jsonPath}`);
     jsonObj.forEach((articleObject) => {
       const pathName = `${pathDir.replace(/.*src\/data/, "")}/${
         articleObject.slug
