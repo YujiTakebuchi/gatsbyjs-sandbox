@@ -1,0 +1,20 @@
+[
+  {
+    "slug": "how-to-use-gatsby",
+    "title": "【Gatsby.js】「ここだけ押さえれば普通に使える」って知識をまとめてみた",
+    "content": "Gatsby.jsでシンプルな静的サイトを作る際に必要な知識だけをまとめました。CMSとの連携等については今回は扱いません。本文テキスト本文テキスト本文テキスト本文テキスト本文テキスト本文テキスト",
+    "tags": ["React", "Gatsby"]
+  },
+  {
+    "slug": "learn-react",
+    "title": "Reactの学習、今からやるならこうする",
+    "content": "Reactの学習を初めて約2週間が経ちました。Railsの時と違って「とりあえずこれをやっておけば良い」ってものが見当たらずなかなか大変でしたが、試行錯誤の上色々と見えてきたのでまとめていきます。",
+    "tags": ["React"]
+  },
+  {
+    "slug": "restore-mac",
+    "title": "Macの初期化→リストアを良い感じにする",
+    "content": "Brewfile、Mackup、Docker、Dropboxを使って良い感じにリストアできる環境を作ったので、まとめます。以下の記事をめちゃくちゃ参考にしました。macOSでの開発環境を全部Docker化したらリストア時間が1時間半になった",
+    "tags": ["Docker", "Brewfile", "Mackup"]
+  }
+]
