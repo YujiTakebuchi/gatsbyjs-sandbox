@@ -7,6 +7,7 @@ const path = require("path");
 // };
 const templateCompPathMap = {
   articles: "./src/templates/articles.jsx",
+  "articles/prefectures": "./src/templates/articles.jsx",
   column: "./src/templates/articles.jsx",
 };
 
