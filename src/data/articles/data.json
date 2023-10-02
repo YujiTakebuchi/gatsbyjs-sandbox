@@ -16,5 +16,11 @@
     "title": "Macの初期化→リストアを良い感じにする",
     "content": "Brewfile、Mackup、Docker、Dropboxを使って良い感じにリストアできる環境を作ったので、まとめます。以下の記事をめちゃくちゃ参考にしました。macOSでの開発環境を全部Docker化したらリストア時間が1時間半になった",
     "tags": ["Docker", "Brewfile", "Mackup"]
+  },
+  {
+    "slug": "",
+    "title": "ディレクトリルートページ",
+    "content": "Brewfile、Mackup、Docker、Dropboxを使って良い感じにリストアできる環境を作ったので、まとめます。以下の記事をめちゃくちゃ参考にしました。macOSでの開発環境を全部Docker化したらリストア時間が1時間半になった",
+    "tags": ["Docker", "Brewfile", "Mackup"]
   }
 ]
