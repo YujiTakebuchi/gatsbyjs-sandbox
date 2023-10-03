@@ -3,8 +3,8 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `official-getting-started`,
-    siteUrl: `https://www.yourdomain.tld`,
+    title: 'official-getting-started',
+    siteUrl: 'https://www.yourdomain.tld',
   },
-  plugins: ["gatsby-plugin-sass"],
+  plugins: ['gatsby-plugin-sass'],
 };
