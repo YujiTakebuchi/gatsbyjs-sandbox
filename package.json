@@ -12,7 +12,8 @@
     "start": "gatsby develop",
     "build": "gatsby build --log-pages",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "lint": "eslint --fix ./src/**/*.js ./src/**/*.jsx"
   },
   "dependencies": {
     "gatsby": "^5.11.0",
