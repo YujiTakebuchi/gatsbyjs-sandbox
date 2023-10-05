@@ -1,8 +1,9 @@
 import { graphql } from "gatsby";
 import React from "react";
 
-export default ({ data }) => {
-  const article = data.allSitePage.edges[0].node.pageContext;
+export default function ({ data }) {
+  const article = data?.allSitePage.edges[0].node.pageContext;
+  if (!article) return <></>;
   return (
     <>
       <h1>{article.title}</h1>
@@ -12,7 +13,7 @@ export default ({ data }) => {
       ))}
     </>
   );
-};
+}
 
 export const query = graphql`
   query ($path: String!) {
